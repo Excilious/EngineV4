@@ -1,0 +1,17 @@
+noreturn func CoolFunction()
+{
+    int CoolValue = Calculate();
+    print(CoolValue);
+}
+
+int func Calculate()
+{
+    int Dude1 = 2;
+    int Dude2 = 4;
+    return Dude1+Dude2;
+}
+
+noreturn func Start()
+{
+    CoolFunction();
+}

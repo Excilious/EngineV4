@@ -1,0 +1,2 @@
+all:
+	g++ -g --std=c++17 -IDependancies -LDependancies/lib Enviroments/*.cpp Enviroments/Physics/*.cpp Enviroments/Physics/Colliders/*.cpp Enviroments/Rendering/Terrain/*.cpp Enviroments/World/*.cpp Enviroments/Common/*.cpp Enviroments/Rendering/*.cpp Enviroments/Rendering/Buffers/*.cpp Enviroments/Rendering/Interface/*.cpp Enviroments/Rendering/Scene/*.cpp Enviroments/Audio/*.cpp Main.cpp glad.c -lglfw3dll -o Dependancies/dll/Main -lz -lwinmm
